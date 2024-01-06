@@ -55,9 +55,9 @@ nav a {
 /* header releted style */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -191,27 +191,50 @@ div>h4 {
     font-weight: 600;
 
 }
-.eusme-item-title{
-    color:#474747;
+
+.eusme-item-title {
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-bottom: 20px;
 }
 
 /* footer releted style */
-footer{
+footer {
     padding: 130px 250px 130px 230px;
     background: #FFF8F3;
     /* border-radius: 10px; */
     display: flex;
     gap: 117px;
 }
-.fotter-dis{
-color: #474747;
-font-size: 16px;
-font-weight: 400;
+
+.fotter-dis {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.socal-media a{
+    padding: 10px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 40;
+    margin-bottom: 25px;
+    padding: 18px;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
+
+
 
 }
