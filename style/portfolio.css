@@ -132,3 +132,8 @@ div >h4{
     text-align: center;
     padding-top: 0x;
 }
+.about-content{
+    padding: 30px 150px;
+    text-align: center;
+    margin-top: 10px;
+}
