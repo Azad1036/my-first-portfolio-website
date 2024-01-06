@@ -93,9 +93,10 @@ nav a {
 }
 
 /* main releted style */
-main section{
+main section {
     margin: 130px;
 }
+
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -163,4 +164,35 @@ div>h4 {
     color: #757575);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* reusme releted style */
+.reumse-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.resume-section {
+    display: flex;
+    gap: 50px;
+}
+
+.reuseme-dis {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-inst {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.eusme-item-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
 }
