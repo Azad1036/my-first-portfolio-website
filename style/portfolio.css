@@ -93,6 +93,10 @@ nav a {
 }
 
 /* main releted style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .section-header {
     color: #181818;
     text-align: center;
@@ -114,4 +118,17 @@ nav a {
     background: #FFF8F3;
     border-radius: 10px;
     margin: 130px;
+}
+
+.about-info-content{
+    display: flex;
+}
+.about-info{
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+div >h4{
+    text-align: center;
+    padding-top: 0x;
 }
