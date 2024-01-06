@@ -1,24 +1,26 @@
 /* common share style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primay{
-    color:#FD6E0A;
-    
+
+.text-primay {
+    color: #FD6E0A;
+
 }
+
 .botton-primay {
     background: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
-    color:white;
+    color: white;
     padding: 15px 35px;
     border: 0;
 }
 
 /* nav related style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,25 +28,28 @@ nav{
 }
 
 
-.nav-header{
-    font-size:45;
-    font-weight:800px; 
+.nav-header {
+    font-size: 45;
+    font-weight: 800px;
 }
-.text-primay{
-    color:#FD6E0A;
+
+.text-primay {
+    color: #FD6E0A;
 }
-nav > ul {
-    display: flex;   
+
+nav>ul {
+    display: flex;
     align-items: center;
 }
 
-nav >ul li {
+nav>ul li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
 
 /* header releted style */
@@ -55,31 +60,58 @@ nav a {
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .profile-image{
+.banner .profile-image {
     width: 500px;
 }
-.banner-welcome{
+
+.banner-welcome {
     font-size: 35px;
     font-weight: 600;
     color: #474747;
     margin: 0px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
 }
-.banner-content{
+
+.banner-content {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 20px;
     max-width: 500px;
+}
+
+/* main releted style */
+.section-header {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-content {
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* about releted style */
+.about {
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px;
 }
