@@ -55,7 +55,7 @@ nav a {
 /* header releted style */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png), url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
@@ -207,7 +207,7 @@ div>h4 {
 footer {
     padding: 130px 250px 130px 230px;
     background: #FFF8F3;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     display: flex;
     gap: 117px;
 }
